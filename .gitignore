@@ -1,3 +1,27 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+reactapp/node_modules/
+reactapp/.pnp
+reactapp/.pnp.js
+
+# testing
+reactapp/coverage
+
+# production
+
+# misc
+reactapp/.DS_Store
+reactapp/.env.local
+reactapp/.env.development.local
+reactapp/.env.test.local
+reactapp/.env.production.local
+
+reactapp/npm-debug.log*
+reactapp/yarn-debug.log*
+reactapp/yarn-error.log*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
